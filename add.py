@@ -9,10 +9,11 @@ def addition(x,y):
     '''
 
     if type(x)!=int and type(x)!=float:
-        raise TypeError
+        raise TypeError('Wrong input type: Use int or float only')
     if type(y)!=int and type(y)!=float:
-        raise TypeError
+        raise TypeError('Wrong input type: Use int or float only')
     
     return x+y
+
 
 
