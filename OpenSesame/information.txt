@@ -1,0 +1,14 @@
+﻿
+set cols "1;1;1;1"
+set rows "1;1;1;1;1"
+widget 0 0 4 1 label text="<b><u>SUBJECT INFORMATION</b></u>"
+widget 0 1 1 1 label center="no" text="Gender"
+widget 1 1 1 1 checkbox group="gender" text="Male" var="gender"
+widget 2 1 1 1 checkbox group="gender" text="Female" var="gender"
+widget 0 2 1 1 label center="no" text="Handedness"
+widget 1 2 1 1 checkbox group="handedness" text="Right" var="handedness"
+widget 2 2 1 1 checkbox group="handedness" text="Left" var="handedness"
+widget 0 3 1 1 label center="no" text="Age"
+widget 1 3 3 1 text_input var="age"
+widget 0 4 4 1 button text="Ok"
+
